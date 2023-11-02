@@ -1,0 +1,148 @@
+header{
+    color: bisque;
+}
+
+body{
+    background: url("../img/bg_envelope_1.jpg");
+    background-size: cover;
+}
+
+.container{
+    
+}
+#header_name{
+
+}
+.topnav{
+    margin-bottom: 15px;  
+}
+.menu_bars{
+    display: inline;
+    cursor: pointer;
+    position:absolute;
+    top: 65;
+}
+.bar_1, .bar_2, .bar_3{
+    width: 30px;
+    height: 4px;
+    background-color: bisque;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+.icon_bar{
+    position: absolute;
+    top: 70px;
+    left: 60px;
+    font-size: 20;
+
+}
+#main_menu{
+    color: bisque;
+    text-decoration: none;
+}
+#search_line{
+    border-radius: 10px;
+    width: 400px;
+    margin-left: 300px;
+}
+#top_settings{
+    margin-left:310px;
+    color: bisque;
+    text-decoration: none;
+    
+}
+#main_menu:hover, #top_settings:hover, .side_menu a:hover{
+    background-color:blue;
+}
+.main_container{
+    display: inline-flex;
+}
+.side_menu{
+    width: 200px;
+    height: 350px;
+    background-color: black;
+    opacity: 0.7;
+}
+.side_menu a{
+    margin-top: 20px;
+    padding: 20;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: bisque;
+}
+article {
+    margin-left: 5px;
+    background-image: url("../img/e.png");
+    background-size: 550px 600px ;
+    overflow: hidden;
+    height: 600px;
+    width: 550px;
+    opacity: 0.8;
+}
+.list_container{
+    display: block;
+}
+.raw_table{
+    padding: 20px;
+    border: 1px solid black;
+    margin: 1;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.checkbox{
+    margin: 0;
+}
+.checkbox{
+    float: left;
+    margin: 10px;  
+}
+.sender{
+    display: inline-table;
+    width: 300;
+}
+
+.date{ 
+    width: 100;
+    display: inline-table;
+}
+.letter_field{
+    margin-left: 5px;
+    background-image: url(../img/letter_field_1.png);
+    background-size: 600px 600px;
+    height: 600px;
+    width: 600px;
+}
+.letter_field_header{
+    padding-top: 60px;
+    padding-left: 30px;
+}
+.letter_field_header td{
+    padding-left: 20px;
+}
+.letter_field hr{
+    width: 520px;
+    margin-left: 0px
+}
+.letter_field_text{
+    padding: 30px;
+}
+.letter_field_footer{
+    position: relative;
+    top:280px;
+    padding-left: 20px ;
+    
+}
+.letter_field_footer button{
+    margin-right: 20px;
+}
+footer{
+    text-align: center;
+    padding: 10px;
+}
+footer mark{
+    padding: 5px;
+    font-size: 20px;
+    background-color: bisque;
+}
+
