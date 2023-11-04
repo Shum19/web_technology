@@ -65,11 +65,10 @@ function chat(){
     }
 }
 function chatSend(){
-    val = document.getElementById("main_chat").value = name_chat +  ": ";
-    let msg = document.getElementById("chat_input").value
-    document.getElementById("main_chat").innerText = val + msg
-    console.log(msg)
+    let p = document.createElement("p");
+    p.style.margin = "0"
+    p.innerText = name_chat +  ": " + document.getElementById("chat_input").value
+    m_ch = document.getElementById("main_chat").appendChild(p)
     document.getElementById("chat_input").value = ""
-    document.getElementById("main_chat").value = ""
     
 }
