@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home Task</title>
+        <script src="./js/app.js" defer></script>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header class="header">
+            <h1>Домашнее Задание к 3-му Семинару</h1>
+        </header>
+        <article>
+            <div class="container_1">
+                <div>Вывод Имени через функцию</div>
+                <input type="text" placeholder="Введите текст" id="name" >
+                <button type="button" onclick="printName()">Отправить</button>
+                <div id="result"></div>
+            </div>
+            <div class="container_2">Calculator
+                <br>
+                <input type="text" readonly id="calc_field" placeholder="Введите выражение в одно действие">
+                <br>
+                <div class="calc_keyboard">
+                    <button type="button" class="calc_button" onclick="inputOnClick(id)" id="7">7</button>
+                    <button type="button" class="calc_button" onclick="inputOnClick(id)" id="8">8</button>
+                    <button type="button" class="calc_button" onclick="inputOnClick(id)" id="9">9</button>
+                    <button type="button" class="calc_button" onclick="inputOnClick(id)" id="4">4</button>
+                    <button type="button" class="calc_button" onclick="inputOnClick(id)" id="5">5</button>
+                    <button type="button" class="calc_button" onclick="inputOnClick(id)" id="6">6</button>
+                    <button type="button" class="calc_button" onclick="inputOnClick(id)" id="1">1</button>
+                    <button type="button" class="calc_button" onclick="inputOnClick(id)" id="2">2</button>
+                    <button type="button" class="calc_button" onclick="inputOnClick(id)" id="3">3</button>
+                    <button type="button" class="calc_button" onclick="inputOnClick(id)" id="0">0</button>
+                    <button type="button" class="calc_button" onclick="inputOperator(id)" id="plus">+</button>
+                    <button type="button" class="calc_button" onclick="inputOperator(id)" id="minus">-</button>
+                    <button type="button" class="calc_button" onclick="inputOperator(id)" id="multiply">*</button>
+                    <button type="button" class="calc_button" onclick="inputOperator(id)" id="divide">/</button>
+                    <button type="button" class="calc_button" onclick="equal()" id="equal">=</button>
+                    <button type="button" class="calc_button" onclick="clearField()" id="clear">AC</button>
+                </div>
+            </div>
+            <div class="container_3">
+                <div>Чат</div>
+                <input type="text" placeholder="Введите имя" id="name_chat">
+                <button type="button" id="init_name" onclick="chat()">Отправить</button>
+                <div id="chat">
+                    <div id="chat_fielf">
+                        <div id="top"></div>
+                        <div id="main_chat"></div>
+                        <div>
+                            <input type="text" id="chat_input" placeholder="Введите сообщение">
+                            <button type="button" onclick="chatSend()">Send</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </body>
+</html>
